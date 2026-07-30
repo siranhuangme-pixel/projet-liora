@@ -9,5 +9,10 @@ __pycache__/
 .DS_Store
 
 # EDA (à ajouter plus tard)
-02_eda.ipynb
-eda/
+notebooks/03_eda.ipynb
+reports/figures/
+
+# Données brutes (téléchargées manuellement par chacun, volumineuses / parfois
+# sous licence -> jamais versionnées). Seules les tables construites par les
+# pipelines (data/processed/dim_*.parquet, petites, dérivées) sont commit.
+data/raw/
