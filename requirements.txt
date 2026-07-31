@@ -1,0 +1,26 @@
+# Dépendances du projet — générées depuis l'environnement de développement
+# (uniquement les paquets réellement utilisés par les notebooks / app.py)
+
+# Data wrangling
+pandas==2.3.3
+numpy==2.0.2
+pyarrow==21.0.0          # lecture/écriture des fichiers .parquet
+
+# Lecture de fichiers Excel
+openpyxl==3.1.5          # .xlsx
+xlrd==2.0.2              # .xls (fichiers RNSA)
+
+# Géographie
+reverse_geocoder==1.5.1  # reverse geocoding lat/lon -> département
+
+# Visualisation
+plotly==6.7.0
+
+# Dashboard interactif
+streamlit==1.50.0
+
+# Exécution des notebooks
+jupyter_client==8.2.0
+ipykernel==6.23.1
+nbformat==5.10.4
+nbconvert==7.17.1

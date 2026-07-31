@@ -8,6 +8,12 @@ __pycache__/
 # macOS
 .DS_Store
 
+# Fichiers temporaires Office (lock files)
+~$*
+
+# Config Claude Code locale (spécifique à la machine)
+.claude/settings.local.json
+
 # EDA (à ajouter plus tard)
 notebooks/03_eda.ipynb
 reports/figures/
